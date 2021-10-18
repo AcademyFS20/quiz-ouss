@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
+   
     <title> UI QUIZZ </title>
 </head>
 
 <body>
     <header id="header">
-        <h1 class="title">UI QUIZ</h1>
+        <h1 class="title">UI - QUIZ</h1>
         <div class="result"></div>
     </header>
     <main id="main">
@@ -22,17 +23,19 @@
                 <div class="div-questions">
                     <h2> Questions</h2>
                     <h3> 1. What's your name </h3>
-                    <input type="text" id="nom">
-                    <input type="button" id="btn-submit" value="Submit">
+                    <input type="text" name="txt" id="name" class="nom">
+                    <input type="button" id="btn-submit" class="btn-submit" value="Submit">
+                    <div class="div-name"></div>
+
 
                     <h3> 2. Javascript is typed language </h3>
                         <div class="question1">
                             <div class="question1-choix1">
-                                <input type="radio" id="radio-question1" value="YES" >
+                                <input type="radio" id="radio-question1" name="q1" value="A" >
                                 <label for="radio">YES</label>
                             </div>
                             <div class="question1-choix2">
-                                <input type="radio" id="radio-question1" value="NO" >
+                                <input type="radio" id="radio-question1"  name="q1" value="B" >
                                 <label for="radio">NO</label>
                             </div>
                         </div>
@@ -40,11 +43,11 @@
                         <h3> 3. DOM? </h3>
                         <div class="question2">
                             <div class="question2-choix1">
-                                <input type="radio" id="radio-question2" value="Document Object Mimirror" >
+                                <input type="radio" id="radio-question2" name="q2" value="A" >
                                 <label for="radio">Document Object Mimirror</label>
                             </div>
                             <div class="question2-choix2">
-                                <input type="radio" id="radio-question2" value="Document Object Model" >
+                                <input type="radio" id="radio-question2" name="q2" value="B" >
                                 <label for="radio">Document Object Model</label>
                             </div>
                         </div>
@@ -52,11 +55,11 @@
                         <h3> 4. const x = y.push() what's 'y' </h3>
                         <div class="question3">
                             <div class="question3-choix1">
-                                <input type="radio" id="radio-question3" value="Stringr" >
+                                <input type="radio" id="radio-question3" name="q3" value="A" >
                                 <label for="radio">A String</label>
                             </div>
                             <div class="question3-choix2">
-                                <input type="radio" id="radio-question3" value="Array" >
+                                <input type="radio" id="radio-question3" name="q3" value="B" >
                                 <label for="radio">An Array</label>
                             </div>
                         </div>
@@ -64,12 +67,12 @@
                         <h3> 5. An object instance is ? </h3>
                         <div class="question4">
                             <div class="question4-choix1">
-                                <input type="radio" id="radio-question4" value="constuctor" >
+                                <input type="radio" id="radio-question4" name="q4" value="A" >
                                 <label for="radio">A constructor</label>
                             </div>
                             <div class="question4-choix2">
-                                <input type="radio" id="radio-question4" value="An occurence of the same Object" >
-                                <label for="radio">An occurence of the same Objec</label>
+                                <input type="radio" id="radio-question4" name="q4"  value="B" >
+                                <label for="radio">An occurence of the same Object</label>
                             </div>
                         </div>
 
@@ -80,6 +83,8 @@
         </main>
     
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
