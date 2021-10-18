@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+
+    width:100%;
+}
+
+#header{
+
+    width:100%;
+    background-color: white;
+}
+
+.title {
+    font-size: 4.5rem;
+    text-align: center;
+    color:rgb(45, 93, 251);
+   
+}
+.div-body{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+}
+.main{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(64, 108, 251) ;
+        margin:3rem 3rem;
+        width: 800px;
+    }
+
+.frm-questions{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: left;
+    width:50%
+}
+
+.div-questions> h2{
+    margin-top:  40px;
+        color:white;
+        font-size:3.5rem;
+    }
+
+h3{
+        color : white;
+        font-size:2rem;
+        opacity: 0.5;
+        margin-top:  40px;
+    }
+
+input{
+        height:2.5rem;
+    }
+
+.div-questions div{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        color:white;
+        font-size:1.5rem;
+
+    }
+label{
+    font-size:1.5rem;
+}
+
+.btn-send{
+        width: 70px;
+        height: 30px;
+        margin-top:  40px;
+        margin-bottom:  40px;
+        margin-left:  150px;
+    }
+   
+.question1{
+margin-left:  40px;
+}
+
+.question2{
+    margin-left:  40px;
+    }
+.question3{
+        margin-left:  40px;
+        }
+.question4{
+            margin-left:  40px;
+            }
+
+.question1 div {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: center;
+	align-content: center;
+}
+
+.question2 div {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: center;
+	align-content: center;
+}
+
+.question3 div {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: center;
+	align-content: center;
+}
+
+.question4 div {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: left;
+	align-items: center;
+	align-content: center;
+}
+

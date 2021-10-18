@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title> UI QUIZZ </title>
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="title">UI QUIZ</h1>
+        <div class="result"></div>
+    </header>
+    <main id="main">
+
+    </main>
+    <div class="div-body">
+        <main class="main">
+            <form class="frm-questions">
+
+                <div class="div-questions">
+                    <h2> Questions</h2>
+                    <h3> 1. What's your name </h3>
+                    <input type="text" id="nom">
+                    <input type="button" id="btn-submit" value="Submit">
+
+                    <h3> 2. Javascript is typed language </h3>
+                        <div class="question1">
+                            <div class="question1-choix1">
+                                <input type="radio" id="radio-question1" value="YES" >
+                                <label for="radio">YES</label>
+                            </div>
+                            <div class="question1-choix2">
+                                <input type="radio" id="radio-question1" value="NO" >
+                                <label for="radio">NO</label>
+                            </div>
+                        </div>
+
+                        <h3> 3. DOM? </h3>
+                        <div class="question2">
+                            <div class="question2-choix1">
+                                <input type="radio" id="radio-question2" value="Document Object Mimirror" >
+                                <label for="radio">Document Object Mimirror</label>
+                            </div>
+                            <div class="question2-choix2">
+                                <input type="radio" id="radio-question2" value="Document Object Model" >
+                                <label for="radio">Document Object Model</label>
+                            </div>
+                        </div>
+
+                        <h3> 4. const x = y.push() what's 'y' </h3>
+                        <div class="question3">
+                            <div class="question3-choix1">
+                                <input type="radio" id="radio-question3" value="Stringr" >
+                                <label for="radio">A String</label>
+                            </div>
+                            <div class="question3-choix2">
+                                <input type="radio" id="radio-question3" value="Array" >
+                                <label for="radio">An Array</label>
+                            </div>
+                        </div>
+
+                        <h3> 5. An object instance is ? </h3>
+                        <div class="question4">
+                            <div class="question4-choix1">
+                                <input type="radio" id="radio-question4" value="constuctor" >
+                                <label for="radio">A constructor</label>
+                            </div>
+                            <div class="question4-choix2">
+                                <input type="radio" id="radio-question4" value="An occurence of the same Object" >
+                                <label for="radio">An occurence of the same Objec</label>
+                            </div>
+                        </div>
+
+                    <input type="button" class="btn-send" value="send">
+                </div>
+                            
+            </form>
+        </main>
+    
+    </div>
+</body>
+
+</html>
