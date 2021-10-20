@@ -9,6 +9,7 @@ const arrayBonnesReponses = [
     ['q4',  'B']
 ]   
 
+// console.log(arrayBonnesReponses[0])
 
 const regex = /^([a-zA-Z ]){3,30}$/;
 
@@ -53,7 +54,14 @@ function getReponsesUser(){
 
 function calculScore(reponseUser){
     let score = 0
-
+    for (let i = 0; i < reponseUser.length;i++)
+    {
+        if(JSON.stringify(reponseUser[i]) == JSON.stringify(arrayBonnesReponses[i]))
+            score = score +25
+    }
+        
+   
+    //console.log(score)
     return score
 }
 
